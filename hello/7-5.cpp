@@ -1,3 +1,6 @@
+###素数判定###
+
+
 #include <iostream>
 
 
