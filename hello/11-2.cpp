@@ -14,6 +14,7 @@ const int Y_SIZE = 16;
 char graphics[X_SIZE / 8][Y_SIZE];
 
 
+// 関数のプロトタイプ
 void print_graphics();
 
 
@@ -23,7 +24,7 @@ int main() {
 
 	for (loc1 = 1; loc1 < 11; ++loc1) {
 		for (loc2 = 1; loc2 < 11; ++loc2) {
-				SET_BIT(loc1, loc2);
+			SET_BIT(loc1, loc2);
 		}
 	}
 	print_graphics();
@@ -31,6 +32,7 @@ int main() {
 }
 
 
+// 表示
 void print_graphics() {
 	int x, y;  
 	unsigned int bit;
