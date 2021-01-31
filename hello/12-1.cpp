@@ -22,15 +22,15 @@ struct mailing HOKKAIDO[4] = {  // 構造体の配列を宣言  mailing:型
 };
 
 
-void print_mailing(struct mailing* temp) {
+void print_mailing(struct mailing* p) {
 	for (int i = 0; i < 4; ++i) {
 		std::cout << "mailing: " << i << '\n';
-		std::cout << "name: " << temp -> name<< '\n';
-		std::cout << "address1: " << temp -> address1 << '\n';
-		std::cout << "address2: " << temp -> address2 << '\n';
-		std::cout << "city: " << temp -> city << '\n';
-		std::cout << "state: " << temp -> state << '\n';
-		std::cout << "zip: " << temp -> zip << '\n';
+		std::cout << "name: " << p -> name<< '\n';
+		std::cout << "address1: " << p -> address1 << '\n';
+		std::cout << "address2: " << p -> address2 << '\n';
+		std::cout << "city: " << p -> city << '\n';
+		std::cout << "state: " << p -> state << '\n';
+		std::cout << "zip: " << p -> zip << '\n';
 		std::cout << " " << '\n';
 	}
 }
