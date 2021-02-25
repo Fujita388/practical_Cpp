@@ -59,8 +59,8 @@ int main() {
 	
 	int in_fsize = get_size(in_fname);  // コピー元のファイルのサイズ
 	char buf[in_fsize];  // ファイルのコピーの一時保存場所
-	reader(in_fname, buf);  // コピー元のファイルにbufをコピー
-	writer(out_fname, buf);  // コピー先のファイルにbufをコピ
+	reader(in_fname, buf);  // コピー元のファイルをbufにコピー
+	writer(out_fname, buf);  // コピー先のファイルにbufをコピー
 
 	return 0;
 }
